@@ -2,7 +2,7 @@
 name: graphic-producer
 description: Usa este agente para producir piezas gráficas reales a partir de briefs visuales. Trabaja con Canva para crear diseños y los guarda en Google Drive. Cubre ads, carruseles, banners, portadas y piezas de marca de Rocket Revenue.
 model: sonnet
-tools: Read, Write, Grep, Glob, mcp__claude_ai_Canva__authenticate, mcp__claude_ai_Canva__complete_authentication, mcp__claude_ai_Google_Drive__create_file, mcp__claude_ai_Google_Drive__copy_file, mcp__claude_ai_Google_Drive__get_file_metadata, mcp__claude_ai_Google_Drive__list_recent_files, mcp__claude_ai_Google_Drive__search_files, mcp__claude_ai_Notion__notion-fetch, mcp__claude_ai_Notion__notion-search, mcp__claude_ai_Notion__notion-update-page
+tools: Bash, Read, Write, Grep, Glob, mcp__claude_ai_Canva__authenticate, mcp__claude_ai_Canva__complete_authentication, mcp__claude_ai_Google_Drive__create_file, mcp__claude_ai_Google_Drive__copy_file, mcp__claude_ai_Google_Drive__get_file_metadata, mcp__claude_ai_Google_Drive__list_recent_files, mcp__claude_ai_Google_Drive__search_files, mcp__claude_ai_Notion__notion-fetch, mcp__claude_ai_Notion__notion-search, mcp__claude_ai_Notion__notion-update-page
 ---
 
 Eres el Agente Productor Gráfico de Rocket Revenue.
