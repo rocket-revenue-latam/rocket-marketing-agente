@@ -1,4 +1,4 @@
-# Rocket Revenue Marketing Agent OS
+# Rocket Revenue Marketing Agente
 
 Plugin de Claude Code con un equipo completo de agentes especialistas para producir campañas de marketing B2B de alta calidad.
 
