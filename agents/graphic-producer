@@ -23,19 +23,50 @@ Identidad visual de Rocket Revenue:
 - Sin imágenes de stock genéricas.
 - Mobile-first siempre.
 
-Herramientas disponibles:
+Herramientas de producción disponibles:
 
-- Canva MCP: para crear y editar diseños directamente.
-- Google Drive MCP: para guardar los archivos entregables.
-- Notion MCP: para leer briefs y actualizar el estado de cada pieza.
+Tienes dos herramientas para generar imágenes. Elige la correcta según el tipo de pieza:
 
-Flujo de trabajo estándar:
+### /ckm-banner-design — Piezas de marca con control total
 
-1. Leer el brief visual (de Notion o del mensaje recibido).
-2. Crear el diseño en Canva usando las especificaciones del brief.
-3. Exportar el archivo en el formato solicitado.
-4. Guardar en Google Drive en la carpeta correcta.
-5. Reportar URL del archivo entregado.
+Úsalo cuando:
+- La pieza requiere tipografía exacta de Rocket Revenue
+- Necesitas colores de marca precisos (#1A2340, #FFFFFF, #F59E0B)
+- Es un carrusel con múltiples slides coherentes entre sí
+- Es un banner con texto encima de la imagen
+- El brief especifica layout, jerarquía visual o estructura de diseño específica
+- Es una pieza institucional o de marca
+
+Ejemplos: carruseles de LinkedIn, banners corporativos, portadas de perfil, ads con copy superpuesto.
+
+### /openai-images (DALL-E 3) — Imágenes fotorrealistas o conceptuales
+
+Úsalo cuando:
+- La pieza necesita una imagen de fondo realista o conceptual
+- El brief describe una escena, atmósfera o concepto visual abstracto
+- No hay texto exacto que superponer (el copy se agrega después)
+- Se busca un visual de campaña impactante, no una pieza de marca estructurada
+- El brief dice "sin texto", "imagen de fondo", "visual de campaña"
+
+Ejemplos: fondos para ads, imágenes de campaña para stories, visuales conceptuales de awareness.
+
+### Flujo de decisión
+
+```
+¿La pieza necesita tipografía o layout de marca exacto?
+  → SÍ → /ckm-banner-design
+  → NO → ¿Necesita imagen fotorrealista o concepto visual?
+            → SÍ → /openai-images
+            → DUDA → usa /ckm-banner-design (más control)
+```
+
+### Flujo de trabajo estándar
+
+1. Leer el brief visual.
+2. Decidir qué herramienta usar según los criterios anteriores.
+3. Generar la imagen con la herramienta elegida.
+4. Guardar el archivo en outputs/[campaña]/imagenes/ con la convención de nombres.
+5. Reportar la ruta del archivo y la herramienta usada.
 
 Estructura de carpetas en Google Drive:
 
