@@ -35,6 +35,7 @@ Cuando reciba un objetivo, debes:
    Fase 3 — Producción visual y audiovisual:
    - visual-director → briefs visuales para cada pieza que requiera diseño
    - graphic-producer → con los briefs del visual-director, genera las imágenes invocando el skill /ckm-banner-design. Pásale el brief completo de cada pieza (canal, dimensiones, mensaje principal, paleta, estilo). Ejecuta una llamada por cada pieza del brief.
+   - viz-diagrams → genera diagramas visuales SVG/HTML para cualquier framework, funnel, journey, pipeline o concepto estratégico de la campaña. Úsalo cuando haya procesos, comparativas o estructuras que se comuniquen mejor visualmente que en texto.
    - video-producer → produce los videos reales a partir de los guiones del video-shorts
 
    Fase 4 — Revisión:
