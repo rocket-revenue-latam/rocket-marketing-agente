@@ -1,17 +1,17 @@
 ---
 name: campaign-plan
-description: Create a complete B2B marketing campaign plan for Rocket Revenue, including audience, big idea, funnel, channels, deliverables, CTA and metrics.
+description: Create a complete B2B marketing campaign plan for {{NOMBRE_EMPRESA}}, including audience, big idea, funnel, channels, deliverables, CTA and metrics.
 ---
 
 # Campaign Plan Skill
 
-Use this skill when creating a marketing campaign for Rocket Revenue.
+Use this skill when creating a marketing campaign for {{NOMBRE_EMPRESA}} <!-- Nombre de tu empresa -->.
 
 ## Context
 
-Rocket Revenue helps B2B companies professionalize their revenue system across marketing, sales, customer success and RevOps.
+{{DESCRIPCION_EMPRESA}} <!-- Describe a qué se dedica tu empresa y a quién ayuda -->
 
-The goal of a campaign is not just to create content. The goal is to generate demand, educate the market, capture leads, nurture opportunities or convert prospects into diagnostics, meetings, Revenue Masterclass sales or VendeX applications.
+The goal of a campaign is not just to create content. The goal is to generate demand, educate the market, capture leads, nurture opportunities or convert prospects into diagnostics, meetings, {{OFERTA_2}} <!-- Nombre de tu oferta/producto de compromiso medio (ej. producto pago) --> sales or {{OFERTA_3}} <!-- Nombre de tu oferta/producto de mayor compromiso (ej. aplicación o consultoría) --> applications.
 
 ## Inputs Needed
 
@@ -84,7 +84,7 @@ Content examples:
 - Diagnostic content.
 
 CTA examples:
-- Complete Revenue Diagnostic.
+- Complete {{OFERTA_1}} <!-- Nombre de tu oferta/producto de menor compromiso (ej. diagnóstico o recurso gratuito) -->.
 - Download resource.
 - Read guide.
 - Watch masterclass.
@@ -104,21 +104,15 @@ Content examples:
 
 CTA examples:
 - Book meeting.
-- Buy Revenue Masterclass.
-- Apply to VendeX.
+- Buy {{OFERTA_2}}.
+- Apply to {{OFERTA_3}}.
 - Request diagnostic.
 
-## Rocket Revenue Tone
+## {{NOMBRE_EMPRESA}} Tone
 
 Use a tone that is:
 
-- Consultative.
-- Direct.
-- Clear.
-- B2B.
-- Practical.
-- Close, but professional.
-- Commercial without being aggressive.
+{{TONO_MARCA}} <!-- Lista de adjetivos que describen el tono de tu marca -->
 
 ## Use These Message Angles
 
@@ -188,4 +182,4 @@ Before finalizing, check:
 - Are the channels connected to the funnel?
 - Is there a CTA?
 - Are the metrics measurable?
-- Does it sound like Rocket Revenue?
+- Does it sound like {{NOMBRE_EMPRESA}}?

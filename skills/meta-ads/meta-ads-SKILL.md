@@ -1,15 +1,15 @@
 ---
 name: meta-ads
-description: Create Meta Ads strategy, copy and creative briefs for Rocket Revenue campaigns.
+description: Create Meta Ads strategy, copy and creative briefs for {{NOMBRE_EMPRESA}} campaigns.
 ---
 
 # Meta Ads Skill
 
-Use this skill when creating Meta Ads for Rocket Revenue.
+Use this skill when creating Meta Ads for {{NOMBRE_EMPRESA}} <!-- Nombre de tu empresa -->.
 
 ## Context
 
-Rocket Revenue uses Meta Ads to promote diagnostics, resources, Revenue Masterclass, VendeX, events and remarketing campaigns.
+{{NOMBRE_EMPRESA}} uses Meta Ads to promote diagnostics, resources, {{OFERTA_2}} <!-- Nombre de tu oferta/producto de compromiso medio (ej. producto pago) -->, {{OFERTA_3}} <!-- Nombre de tu oferta/producto de mayor compromiso (ej. aplicación o consultoría) -->, events and remarketing campaigns.
 
 Ads should be clear, direct, mobile-first and based on real B2B pains.
 
@@ -20,8 +20,8 @@ Meta Ads can aim to:
 - Generate traffic.
 - Generate leads.
 - Get diagnostic completions.
-- Sell Revenue Masterclass.
-- Generate VendeX applications.
+- Sell {{OFERTA_2}}.
+- Generate {{OFERTA_3}} applications.
 - Retarget warm audiences.
 - Promote content.
 - Validate messages.
@@ -68,8 +68,8 @@ For every ad, provide:
 - Completar diagnóstico.
 - Ver diagnóstico.
 - Descargar recurso.
-- Comprar Masterclass.
-- Postular a VendeX.
+- Comprar {{OFERTA_2}}.
+- Postular a {{OFERTA_3}}.
 - Agendar reunión.
 - Más información.
 

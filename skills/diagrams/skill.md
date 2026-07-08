@@ -1,6 +1,6 @@
 ---
 name: diagrams
-description: Genera diagramas y visuales como SVG o HTML con las paletas de marca, tipografía Poppins y los estilos visuales de Rocket Revenue. Úsalo para frameworks, embudos, comparativas, procesos, matrices y cualquier visual explicativo.
+description: Genera diagramas y visuales como SVG o HTML con la paleta de marca, tipografía Poppins y los estilos visuales de tu empresa. Úsalo para frameworks, embudos, comparativas, procesos, matrices y cualquier visual explicativo.
 ---
 
 # Skill: Diagrams & Visuals
@@ -30,9 +30,9 @@ Pesos a usar:
 
 ---
 
-## Paletas disponibles
+## Paleta de marca
 
-### Paleta 1 · Navy + Magenta ← PREDETERMINADA
+### {{PALETA_DEFAULT_NOMBRE}} <!-- Nombre de tu paleta de marca. Puedes mantener estos valores hex de ejemplo o reemplazarlos por los de tu marca. Si necesitas más de una paleta temática, duplica este bloque. --> ← PREDETERMINADA
 > Usar por defecto salvo que se indique otra.
 
 ```
@@ -47,56 +47,7 @@ Pesos a usar:
 --accent-lt: #FBD0E6   (texto sobre fondos magenta)
 ```
 
-### Paleta 2 · Terminal Mint
-> Dev, automatización, Claude Code, RevOps técnico.
-
-```
---bg:        #13131A
---card:      #1C1C26
---accent:    #00D4AA
---border:    rgba(0,212,170,0.2)
---text-sec:  #94A3B8
---title:     #FFFFFF
-```
-
-### Paleta 3 · Azul Eléctrico
-> Data, finanzas, B2B analytics, revenue metrics.
-
-```
---bg:        #0B1437
---card:      #13205A
---accent:    #3B82F6
---accent-2:  #60A5FA
---border:    #26356E
---text-sec:  #94A8D0
---title:     #FFFFFF
-```
-
-### Paleta 4 · Morado Profundo
-> Estrategia, IA, innovación, thought leadership.
-
-```
---bg:        #1A0B2E
---card:      #2A1A45
---accent:    #A855F7
---accent-2:  #C084FC
---border:    #3D2A5C
---text-sec:  #B0A0CE
---title:     #FFFFFF
-```
-
-### Paleta 5 · Índigo + Cian
-> SaaS, growth, producto, go-to-market.
-
-```
---bg:        #0F1235
---card:      #1B1F4D
---accent:    #6366F1
---accent-2:  #22D3EE
---border:    #2A2F66
---text-sec:  #9CA3D4
---title:     #FFFFFF
-```
+Este es el set de variables CSS que se usa en todos los diagramas. Si tu marca necesita más de una paleta (por ejemplo, una distinta para contenido técnico vs. contenido estratégico), duplica este bloque con otro nombre y otros valores hex, y elige entre ellas según el tema del contenido.
 
 ---
 
@@ -273,9 +224,9 @@ El HTML debe:
   <!-- Todo el contenido del diagrama va dentro de este div -->
   <div id="diagram-export">
 
-    <!-- Logo top-left -->
+    <!-- Logo top-left: {{LOGO_RUTA}} es la ruta donde guardas el logo, {{LOGO_ARCHIVO}} el nombre exacto del archivo (versión para fondo oscuro), y {{NOMBRE_EMPRESA}} el nombre de tu empresa -->
     <div class="top-logo">
-      <img src="../../branding/rocket-revenue-logo.png" alt="Rocket Revenue">
+      <img src="{{LOGO_RUTA}}/{{LOGO_ARCHIVO}}" alt="{{NOMBRE_EMPRESA}}">
     </div>
 
     <!-- contenido del diagrama -->
@@ -365,13 +316,13 @@ El HTML debe:
 
 Ejemplos de solicitudes válidas:
 
-- `/diagrams funnel leads → MQL → SQL → cliente, paleta Azul Eléctrico`
+- `/diagrams funnel leads → MQL → SQL → cliente`
 - `/diagrams pipeline horizontal del proceso de onboarding en 6 etapas`
 - `/diagrams journey map del cliente B2B desde descubrimiento hasta adopción`
 - `/diagrams mapa de relaciones RevOps: Marketing, Ventas, CS y CRM`
 - `/diagrams comparativa Inbound vs Outbound vs ABM en 5 dimensiones`
 - `/diagrams árbol del ICP: industrias → segmentos → arquetipos`
-- `/diagrams flywheel de referidos con 4 etapas, paleta Morado Profundo`
+- `/diagrams flywheel de referidos con 4 etapas`
 - `/diagrams matriz 2x2 impacto vs esfuerzo de iniciativas comerciales`
 - `/diagrams roadmap de implementación RevOps en 3 fases`
 - `/diagrams iceberg de por qué se pierden deals`
@@ -379,7 +330,7 @@ Ejemplos de solicitudes válidas:
 - `/diagrams pirámide de madurez RevOps en 5 niveles`
 - `/diagrams mapa de calor cobertura de contenido por canal y etapa del funnel`
 
-Si no se especifica paleta, usar **Paleta 1 · Navy + Magenta** por defecto.
+Si no se especifica paleta, usar la **{{PALETA_DEFAULT_NOMBRE}}** por defecto.
 
 ---
 

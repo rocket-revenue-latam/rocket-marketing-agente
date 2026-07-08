@@ -1,15 +1,15 @@
 ---
 name: linkedin-post
-description: Create LinkedIn posts for Rocket Revenue with a consultative, direct and B2B tone.
+description: Create LinkedIn posts for {{NOMBRE_EMPRESA}} with a consultative, direct and B2B tone.
 ---
 
 # LinkedIn Post Skill
 
-Use this skill when creating LinkedIn posts for Rocket Revenue.
+Use this skill when creating LinkedIn posts for {{NOMBRE_EMPRESA}} <!-- Nombre de tu empresa -->.
 
 ## Context
 
-Rocket Revenue helps B2B companies improve their revenue system across marketing, sales, customer success and RevOps.
+{{DESCRIPCION_EMPRESA}} <!-- Describe a qué se dedica tu empresa y a quién ayuda -->
 
 LinkedIn content should build authority, educate the market, activate pain and generate conversations.
 
@@ -78,16 +78,16 @@ Soft CTAs:
 
 - ¿Te pasa algo parecido?
 - Este es un buen punto para diagnosticar tu sistema comercial.
-- Si quieres revisarlo, puedes completar el diagnóstico de revenue.
+- Si quieres revisarlo, puedes completar {{OFERTA_1}}.
 - Guardar este post puede ayudarte a revisar tu proceso comercial.
 - Lo importante no es hacer más, sino entender dónde está el cuello de botella.
 
 Commercial CTAs:
 
-- Completa el Diagnóstico de Revenue.
-- Agenda una conversación con Rocket Revenue.
-- Revisa la Revenue Masterclass.
-- Postula a VendeX.
+- Completa {{OFERTA_1}} <!-- Nombre de tu oferta/producto de menor compromiso (ej. diagnóstico o recurso gratuito) -->.
+- Agenda una conversación con {{NOMBRE_EMPRESA}}.
+- Revisa {{OFERTA_2}} <!-- Nombre de tu oferta/producto de compromiso medio (ej. producto pago) -->.
+- Postula a {{OFERTA_3}} <!-- Nombre de tu oferta/producto de mayor compromiso (ej. aplicación o consultoría) -->.
 
 ## Output Format
 

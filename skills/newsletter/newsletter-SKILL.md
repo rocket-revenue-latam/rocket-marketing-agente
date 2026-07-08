@@ -1,15 +1,15 @@
 ---
 name: newsletter
-description: Create editorial B2B newsletters for Rocket Revenue that educate, build authority and drive action.
+description: Create editorial B2B newsletters for {{NOMBRE_EMPRESA}} that educate, build authority and drive action.
 ---
 
 # Newsletter Skill
 
-Use this skill when creating newsletters for Rocket Revenue.
+Use this skill when creating newsletters for {{NOMBRE_EMPRESA}} <!-- Nombre de tu empresa -->.
 
 ## Context
 
-Rocket Revenue newsletters should feel editorial, useful and consultative. They should not feel like aggressive sales emails.
+{{NOMBRE_EMPRESA}} newsletters should feel editorial, useful and consultative. They should not feel like aggressive sales emails.
 
 The newsletter should help B2B leaders understand problems in their revenue system and move toward a clear action.
 
@@ -23,8 +23,8 @@ A newsletter can aim to:
 - Promote a diagnostic.
 - Nurture leads.
 - Build authority.
-- Promote Revenue Masterclass.
-- Promote VendeX.
+- Promote {{OFERTA_2}} <!-- Nombre de tu oferta/producto de compromiso medio (ej. producto pago) -->.
+- Promote {{OFERTA_3}} <!-- Nombre de tu oferta/producto de mayor compromiso (ej. aplicación o consultoría) -->.
 - Invite to a webinar or event.
 
 ## Structure
@@ -84,10 +84,10 @@ Examples:
 ## CTA Examples
 
 - Leer el artículo completo.
-- Completar el Diagnóstico de Revenue.
+- Completar {{OFERTA_1}} <!-- Nombre de tu oferta/producto de menor compromiso (ej. diagnóstico o recurso gratuito) -->.
 - Descargar el recurso.
-- Ver la Revenue Masterclass.
-- Postular a VendeX.
+- Ver {{OFERTA_2}}.
+- Postular a {{OFERTA_3}}.
 - Agendar una conversación.
 
 ## Output Format
@@ -131,5 +131,5 @@ Before finalizing, check:
 - Is the idea useful?
 - Does it sound human?
 - Is the CTA clear?
-- Is it aligned with Rocket Revenue?
+- Is it aligned with {{NOMBRE_EMPRESA}}?
 - Does it avoid sounding too promotional?

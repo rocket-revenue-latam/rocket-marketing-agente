@@ -1,6 +1,6 @@
 ---
 name: openai-images
-description: Genera imágenes reales con DALL-E 3 de OpenAI a partir de un brief visual. Úsalo cuando graphic-producer necesite producir ads, carruseles, banners o cualquier pieza gráfica de Rocket Revenue. Requiere OPENAI_API_KEY en el entorno.
+description: Genera imágenes reales con DALL-E 3 de OpenAI a partir de un brief visual. Úsalo cuando graphic-producer necesite producir ads, carruseles, banners o cualquier pieza gráfica de tu empresa. Requiere OPENAI_API_KEY en el entorno.
 ---
 
 # openai-images
@@ -38,13 +38,9 @@ Traduce el brief a un prompt en inglés optimizado para DALL-E 3.
 - Especificar "professional B2B", "corporate", "clean" para evitar estilos consumer
 - Máximo 400 caracteres para mayor precisión
 
-**Paletas de marca disponibles** (mismo criterio de selección que `graphic-producer` y `viz-diagrams` — usa `--bg` y `--accent` en el prompt):
+**Paleta de marca** (mismo criterio de selección que `graphic-producer` y `viz-diagrams` — usa `--bg` y `--accent` en el prompt):
 
-1. **Navy + Magenta** (por defecto) — `--bg:#0A1A3C · --accent:#E0218A`
-2. **Terminal Mint** — dev, automatización, Claude Code, RevOps técnico — `--bg:#13131A · --accent:#00D4AA`
-3. **Azul Eléctrico** — data, finanzas, B2B analytics, revenue metrics — `--bg:#0B1437 · --accent:#3B82F6`
-4. **Morado Profundo** — estrategia, IA, innovación, thought leadership — `--bg:#1A0B2E · --accent:#A855F7`
-5. **Índigo + Cian** — SaaS, growth, producto, go-to-market — `--bg:#0F1235 · --accent:#6366F1`
+1. **{{PALETA_DEFAULT_NOMBRE}}** <!-- Nombre de tu paleta de marca. Puedes mantener estos valores hex de ejemplo o reemplazarlos por los de tu marca. Si necesitas más de una paleta temática, duplica este bloque. --> (por defecto) — `--bg:#0A1A3C · --accent:#E0218A`
 
 **Ejemplo de prompt:**
 ```
@@ -104,7 +100,7 @@ Ejemplos:
 
 **Carpeta de destino:**
 ```
-/Users/diegomorales/Documents/Claude/Projects/[nombre-campaña]/outputs/[nombre-campaña]/imagenes/
+{{CARPETA_OUTPUTS}} <!-- Ruta local donde guardas tus proyectos de campaña (relativa o absoluta, a tu elección) -->/[nombre-campaña]/imagenes/
 ```
 
 ### Paso 6 — Reportar resultado

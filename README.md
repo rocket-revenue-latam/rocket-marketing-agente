@@ -1,21 +1,21 @@
-# Rocket Revenue Marketing Agente
+# {{NOMBRE_EMPRESA}} <!-- Nombre de tu empresa --> Marketing Agente
 
 Plugin de Claude Code con un equipo completo de agentes especialistas para producir campañas de marketing B2B de alta calidad.
 
 ## ¿Qué hace?
 
-Orquesta un equipo de agentes que trabajan en cadena — desde la investigación de mercado hasta la producción visual — para generar contenido alineado al sistema comercial de Rocket Revenue.
+Orquesta un equipo de agentes que trabajan en cadena — desde la investigación de mercado hasta la producción visual — para generar contenido alineado al sistema comercial de {{NOMBRE_EMPRESA}}.
 
 ## Instalación
 
 ```bash
-claude --plugin-dir https://github.com/rocket-revenue-latam/rocket-marketing-agente
+claude --plugin-dir https://github.com/{{GITHUB_REPO}} <!-- tu-organizacion/tu-repo -->
 ```
 
 O agregarlo como marketplace dentro de Claude Code:
 
 ```
-/plugin marketplace add rocket-revenue-latam/rocket-marketing-agente
+/plugin marketplace add {{GITHUB_REPO}}
 /plugin install rocket-marketing
 ```
 
@@ -54,7 +54,7 @@ Agrega tu key en `~/.claude/settings.json`:
 | `repurposing` | Derivados de cada pieza madre para todos los canales. |
 | `visual-director` | Briefs visuales para diseñadores y herramientas de diseño. |
 | `graphic-producer` | Producción gráfica. Elige automáticamente entre `/ckm-banner-design` y DALL-E 3 según el tipo de pieza. |
-| `viz-diagrams` | Diagramas SVG/HTML para frameworks, funnels, journeys y procesos. 14 tipos disponibles, 5 paletas de marca. |
+| `viz-diagrams` | Diagramas SVG/HTML para frameworks, funnels, journeys y procesos. 14 tipos disponibles, paleta de marca configurable. |
 | `video-producer` | Producción de videos a partir de guiones. |
 | `qa-brand` | Revisión de calidad y voz de marca antes de publicar. |
 
@@ -120,7 +120,7 @@ para [producto] dirigida a [audiencia].
 O invoca skills directamente:
 
 ```
-/rocket-marketing:campaign-plan campaña de lanzamiento VendeX Q3
+/rocket-marketing:campaign-plan campaña de lanzamiento {{OFERTA_3}} <!-- Nombre de tu oferta/producto de mayor compromiso (ej. aplicación o consultoría) --> Q3
 /rocket-marketing:linkedin-post sobre los errores más comunes en pipeline B2B
 /rocket-marketing:openai-images banner de awareness para Meta Ads, estilo oscuro, concepto de sistema comercial
 ```
@@ -129,8 +129,8 @@ O invoca skills directamente:
 
 ## Contexto de marca
 
-Rocket Revenue ayuda a empresas B2B de servicios, tecnología, SaaS, consultoría y servicios profesionales a profesionalizar su sistema comercial para generar más demanda, cerrar más oportunidades y mejorar retención y expansión.
+{{DESCRIPCION_EMPRESA}} <!-- Describe a qué se dedica tu empresa y a quién ayuda -->
 
-**Paleta:** sistema de 5 paletas de marca (fondo siempre oscuro) — Navy + Magenta (por defecto), Terminal Mint, Azul Eléctrico, Morado Profundo, Índigo + Cian. Tipografía: Poppins. Detalle completo en `graphic-producer`, `video-producer` y la skill `diagrams`.
+**Paleta:** {{PALETA_DEFAULT_NOMBRE}} <!-- Nombre de tu paleta de marca. Puedes mantener estos valores hex de ejemplo o reemplazarlos por los de tu marca. Si necesitas más de una paleta temática, duplica este bloque. --> (fondo siempre oscuro). Tipografía: Poppins. Detalle completo en `graphic-producer`, `video-producer` y la skill `diagrams`.
 
-**Tono:** consultivo, directo, cercano, profesional. Sin hype. Sin frases genéricas de agencia.
+**Tono:** {{TONO_MARCA}} <!-- Lista de adjetivos que describen el tono de tu marca -->. Sin hype. Sin frases genéricas de agencia.

@@ -1,15 +1,15 @@
 ---
 name: blog-seo
-description: Create SEO and AEO optimized blog structures and articles for Rocket Revenue.
+description: Create SEO and AEO optimized blog structures and articles for {{NOMBRE_EMPRESA}}.
 ---
 
 # Blog SEO / AEO Skill
 
-Use this skill when creating blog articles, SEO outlines, AEO content, pillar pages or topic clusters for Rocket Revenue.
+Use this skill when creating blog articles, SEO outlines, AEO content, pillar pages or topic clusters for {{NOMBRE_EMPRESA}} <!-- Nombre de tu empresa -->.
 
 ## Context
 
-Rocket Revenue creates content about revenue, marketing, sales, customer success, RevOps, demand generation, pipeline, conversion, retention and B2B growth systems.
+{{NOMBRE_EMPRESA}} creates content about revenue, marketing, sales, customer success, RevOps, demand generation, pipeline, conversion, retention and B2B growth systems.
 
 The content should be optimized for both traditional search engines and AI answer engines.
 
@@ -21,7 +21,7 @@ The blog content should:
 - Educate B2B leaders.
 - Build topical authority.
 - Generate qualified organic traffic.
-- Support conversion into diagnostics, meetings, Revenue Masterclass or VendeX.
+- Support conversion into diagnostics, meetings, {{OFERTA_2}} <!-- Nombre de tu oferta/producto de compromiso medio (ej. producto pago) --> or {{OFERTA_3}} <!-- Nombre de tu oferta/producto de mayor compromiso (ej. aplicación o consultoría) -->.
 - Be easy for AI systems to summarize or cite.
 
 ## SEO Requirements
@@ -95,16 +95,16 @@ Use CTAs according to intent:
 
 ### Consideration
 
-- Complete Revenue Diagnostic.
+- Complete {{OFERTA_1}}.
 - Read framework.
-- Watch Revenue Masterclass.
+- Watch {{OFERTA_2}}.
 
 ### Decision
 
 - Book a meeting.
 - Request diagnostic.
-- Buy Revenue Masterclass.
-- Apply to VendeX.
+- Buy {{OFERTA_2}}.
+- Apply to {{OFERTA_3}}.
 
 ## Output Format
 
@@ -150,6 +150,6 @@ Before finalizing, check:
 - Are there direct answers?
 - Are there FAQs?
 - Is there a CTA?
-- Does it connect to Rocket Revenue’s offers?
+- Does it connect to {{NOMBRE_EMPRESA}}’s offers?
 - Does it avoid keyword stuffing?
 - Does it sound expert and useful?

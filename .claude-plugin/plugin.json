@@ -1,11 +1,11 @@
 {
   "name": "rocket-marketing",
-  "description": "Rocket Revenue Marketing OS — equipo de agentes especialistas para producir campañas B2B de alta calidad.",
+  "description": "{{DESCRIPCION_PLUGIN}}",
   "version": "1.0.0",
   "author": {
     "name": "Diego Morales",
-    "email": "diego@rocketrevenuehq.com"
+    "email": "{{AUTOR_EMAIL}}"
   },
-  "homepage": "https://rocketrevenuehq.com",
+  "homepage": "{{HOMEPAGE_URL}}",
   "license": "MIT"
 }

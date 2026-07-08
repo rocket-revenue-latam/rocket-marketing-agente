@@ -1,15 +1,15 @@
 ---
 name: video-short
-description: Create short video scripts for Rocket Revenue for LinkedIn, Instagram Reels, YouTube Shorts, TikTok and ads.
+description: Create short video scripts for {{NOMBRE_EMPRESA}} for LinkedIn, Instagram Reels, YouTube Shorts, TikTok and ads.
 ---
 
 # Video Short Skill
 
-Use this skill when creating short video scripts for Rocket Revenue.
+Use this skill when creating short video scripts for {{NOMBRE_EMPRESA}} <!-- Nombre de tu empresa -->.
 
 ## Context
 
-Rocket Revenue uses short videos to educate, build authority, activate pain and generate demand among B2B leaders.
+{{NOMBRE_EMPRESA}} uses short videos to educate, build authority, activate pain and generate demand among B2B leaders.
 
 Videos should be simple, direct and easy to record.
 
@@ -22,8 +22,8 @@ A video can aim to:
 - Show a common mistake.
 - Teach a framework.
 - Promote a diagnostic.
-- Promote Revenue Masterclass.
-- Promote VendeX.
+- Promote {{OFERTA_2}} <!-- Nombre de tu oferta/producto de compromiso medio (ej. producto pago) -->.
+- Promote {{OFERTA_3}} <!-- Nombre de tu oferta/producto de mayor compromiso (ej. aplicación o consultoría) -->.
 - Generate conversations.
 - Support ads.
 
@@ -133,6 +133,6 @@ Before finalizing, check:
 - Is it easy to say out loud?
 - Is it understandable without audio?
 - Is the CTA clear?
-- Does it sound like Rocket Revenue?
+- Does it sound like {{NOMBRE_EMPRESA}}?
 - Is it useful for a B2B audience?
 - Can it be recorded easily?

@@ -1,23 +1,23 @@
 ---
 name: email-nurturing
-description: Create email nurturing sequences for Rocket Revenue leads, diagnostics, webinars, resources, Revenue Masterclass and VendeX.
+description: Create email nurturing sequences for {{NOMBRE_EMPRESA}} leads, diagnostics, webinars, resources, {{OFERTA_2}} and {{OFERTA_3}}.
 ---
 
 # Email Nurturing Skill
 
-Use this skill when creating nurturing emails for Rocket Revenue.
+Use this skill when creating nurturing emails for {{NOMBRE_EMPRESA}} <!-- Nombre de tu empresa -->.
 
 ## Context
 
-Rocket Revenue nurtures B2B leads who may have:
+{{NOMBRE_EMPRESA}} nurtures B2B leads who may have:
 
 - Completed a diagnostic.
 - Downloaded a resource.
 - Registered for a webinar.
 - Read an article.
 - Joined the newsletter.
-- Shown interest in Revenue Masterclass.
-- Shown interest in VendeX.
+- Shown interest in {{OFERTA_2}} <!-- Nombre de tu oferta/producto de compromiso medio (ej. producto pago) -->.
+- Shown interest in {{OFERTA_3}} <!-- Nombre de tu oferta/producto de mayor compromiso (ej. aplicación o consultoría) -->.
 - Had a commercial conversation.
 
 The goal is to educate, build trust and move the person to the next step.
@@ -32,8 +32,8 @@ An email can aim to:
 - Handle an objection.
 - Invite to a diagnostic.
 - Invite to a meeting.
-- Sell Revenue Masterclass.
-- Promote VendeX.
+- Sell {{OFERTA_2}}.
+- Promote {{OFERTA_3}}.
 - Reactivate an old lead.
 
 ## Structure
@@ -105,18 +105,18 @@ Common objections:
 ### Commercial Email
 
 Goal:
-Move to meeting, Masterclass or VendeX.
+Move to meeting, {{OFERTA_2}} or {{OFERTA_3}}.
 
 CTA:
 Book meeting, buy course or apply.
 
 ## CTA Examples
 
-- Completar el Diagnóstico de Revenue.
+- Completar {{OFERTA_1}} <!-- Nombre de tu oferta/producto de menor compromiso (ej. diagnóstico o recurso gratuito) -->.
 - Ver mi resultado.
 - Leer el artículo completo.
-- Ver la Revenue Masterclass.
-- Postular a VendeX.
+- Ver {{OFERTA_2}}.
+- Postular a {{OFERTA_3}}.
 - Agendar una conversación.
 - Responder este correo.
 

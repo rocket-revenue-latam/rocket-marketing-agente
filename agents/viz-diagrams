@@ -1,6 +1,6 @@
 ---
 name: viz-diagrams
-description: Convierte contenido, frameworks, funnels, journeys y procesos de marketing/ventas en diagramas visuales SVG o HTML listos para presentaciones. También genera portadas editoriales con título y diagrama (5 paletas de marca). Úsalo cuando se necesite visualizar una estrategia, un pipeline, un customer journey, una comparativa o cualquier concepto que se entienda mejor como diagrama que como texto.
+description: Convierte contenido, frameworks, funnels, journeys y procesos de marketing/ventas en diagramas visuales SVG o HTML listos para presentaciones. También genera portadas editoriales con título y diagrama. Úsalo cuando se necesite visualizar una estrategia, un pipeline, un customer journey, una comparativa o cualquier concepto que se entienda mejor como diagrama que como texto.
 model: sonnet
 tools: Read, Write, WebFetch, Grep, Glob
 ---
@@ -65,32 +65,16 @@ Este paso previene el problema más frecuente: texto que se sale de las cajas, c
 
 Renderiza el diagrama como SVG o HTML inline y guárdalo como archivo en la carpeta de outputs de la campaña.
 
-**Reglas de diseño obligatorias** (estilo Rocket Revenue, listo para PPT):
+**Reglas de diseño obligatorias** (estilo {{NOMBRE_EMPRESA}} <!-- Nombre de tu empresa -->, listo para PPT):
 
-#### Paleta Rocket Revenue
+#### Paleta {{NOMBRE_EMPRESA}}
 
 Fuente tipográfica: Poppins. En SVG: declara en `<defs><style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');</style></defs>`. En HTML: importar en `<style>`.
 
-**Paleta 1 · Navy + Magenta** (recomendada por defecto):
+**{{PALETA_DEFAULT_NOMBRE}}** <!-- Nombre de tu paleta de marca. Puedes mantener estos valores hex de ejemplo o reemplazarlos por los de tu marca. Si necesitas más de una paleta temática, duplica este bloque. --> (recomendada por defecto):
 - Fondo: `#0A1A3C` · Card: `#10234D` · Card alt: `#16284F`
 - Acento: `#E0218A` · Borde: `#2A3F6E`
 - Texto sec: `#9FB0D4` · Texto faint: `#5E6F94` · Título: `#FFFFFF`
-
-**Paleta 2 · Terminal Mint** (dev, automatización, Claude Code):
-- Fondo: `#13131A` · Card: `#1C1C26` · Acento: `#00D4AA`
-- Borde: `rgba(0,212,170,0.2)` · Texto sec: `#94A3B8` · Título: `#FFFFFF`
-
-**Paleta 3 · Azul Eléctrico** (data, finanzas, B2B):
-- Fondo: `#0B1437` · Card: `#13205A` · Acento: `#3B82F6` / `#60A5FA`
-- Borde: `#26356E` · Texto sec: `#94A8D0` · Título: `#FFFFFF`
-
-**Paleta 4 · Morado Profundo** (estrategia, IA, innovación):
-- Fondo: `#1A0B2E` · Card: `#2A1A45` · Acento: `#A855F7` / `#C084FC`
-- Borde: `#3D2A5C` · Texto sec: `#B0A0CE` · Título: `#FFFFFF`
-
-**Paleta 5 · Índigo + Cian** (SaaS, growth, producto):
-- Fondo: `#0F1235` · Card: `#1B1F4D` · Acento: `#6366F1` / `#22D3EE`
-- Borde: `#2A2F66` · Texto sec: `#9CA3D4` · Título: `#FFFFFF`
 
 #### Reglas de calidad — texto y cajas
 

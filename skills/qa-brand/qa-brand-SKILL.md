@@ -1,11 +1,11 @@
 ---
 name: qa-brand
-description: Review Rocket Revenue content for clarity, brand voice, specificity, commercial relevance and quality before publishing.
+description: Review {{NOMBRE_EMPRESA}} content for clarity, brand voice, specificity, commercial relevance and quality before publishing.
 ---
 
 # QA Brand Skill
 
-Use this skill to review any Rocket Revenue output before publishing.
+Use this skill to review any {{NOMBRE_EMPRESA}} <!-- Nombre de tu empresa --> output before publishing.
 
 This skill acts as the final quality filter.
 
@@ -28,17 +28,9 @@ Review:
 
 ## Brand Voice
 
-Rocket Revenue should sound:
+{{NOMBRE_EMPRESA}} should sound:
 
-- Consultative.
-- Direct.
-- Clear.
-- B2B.
-- Practical.
-- Close.
-- Professional.
-- Specific.
-- Commercial, but not aggressive.
+{{TONO_MARCA}} <!-- Lista de adjetivos que describen el tono de tu marca -->
 
 ## Avoid
 
@@ -67,7 +59,7 @@ Evaluate each piece using this checklist:
 4. Is the hook strong?
 5. Is the message easy to understand?
 6. Is there a clear point of view?
-7. Does it sound like Rocket Revenue?
+7. Does it sound like {{NOMBRE_EMPRESA}}?
 8. Does it avoid generic language?
 9. Is the CTA clear?
 10. Is it adapted to the channel?
@@ -131,7 +123,7 @@ When using this skill, deliver:
 ## Scoring Guide
 
 10:
-Excellent. Clear, specific, strong and aligned with Rocket Revenue.
+Excellent. Clear, specific, strong and aligned with {{NOMBRE_EMPRESA}}.
 
 8-9:
 Very good. Minor improvements needed.
