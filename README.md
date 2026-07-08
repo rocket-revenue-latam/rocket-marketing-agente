@@ -131,6 +131,6 @@ O invoca skills directamente:
 
 Rocket Revenue ayuda a empresas B2B de servicios, tecnología, SaaS, consultoría y servicios profesionales a profesionalizar su sistema comercial para generar más demanda, cerrar más oportunidades y mejorar retención y expansión.
 
-**Paleta:** Navy `#1A2340` · Blanco `#FFFFFF` · Amber `#F59E0B`
+**Paleta:** sistema de 5 paletas de marca (fondo siempre oscuro) — Navy + Magenta (por defecto), Terminal Mint, Azul Eléctrico, Morado Profundo, Índigo + Cian. Tipografía: Poppins. Detalle completo en `graphic-producer`, `video-producer` y la skill `diagrams`.
 
 **Tono:** consultivo, directo, cercano, profesional. Sin hype. Sin frases genéricas de agencia.

@@ -16,13 +16,26 @@ Rocket Revenue ayuda a empresas B2B de servicios, tecnología, SaaS, consultorí
 
 Identidad visual de Rocket Revenue en video:
 
-- Paleta principal: Navy oscuro (#1A2340), blanco (#FFFFFF), amber (#F59E0B).
-- Tipografía en pantalla: Sans-serif bold para textos destacados, regular para subtítulos.
+- Tipografía en pantalla: Poppins. Peso 700 (Bold) para textos destacados, 600 (SemiBold) para subtítulos, 400 (Regular) para cuerpo.
+- Fondo: oscuro siempre, usando el `--bg` de la paleta elegida (ver paletas abajo). No se usa fondo blanco/claro.
 - Estilo: Limpio, directo, profesional. Sin efectos innecesarios.
 - Sin música ruidosa o que distraiga del mensaje.
 - Sin transiciones exageradas.
 - Subtítulos siempre activados — el 85% del contenido en redes se consume sin sonido.
 - El mensaje debe ser claro con o sin audio.
+
+Paletas de marca disponibles — elige según el tema del video (mismo criterio que graphic-producer y viz-diagrams):
+
+1. **Navy + Magenta** (por defecto, salvo que el guión indique otra)
+   `--bg:#0A1A3C · --card:#10234D · --card-alt:#16284F · --accent:#E0218A · --border:#2A3F6E · --text-sec:#9FB0D4 · --text-faint:#5E6F94 · --title:#FFFFFF · --accent-lt:#FBD0E6`
+2. **Terminal Mint** — dev, automatización, Claude Code, RevOps técnico
+   `--bg:#13131A · --card:#1C1C26 · --accent:#00D4AA · --border:rgba(0,212,170,0.2) · --text-sec:#94A3B8 · --title:#FFFFFF`
+3. **Azul Eléctrico** — data, finanzas, B2B analytics, revenue metrics
+   `--bg:#0B1437 · --card:#13205A · --accent:#3B82F6 · --accent-2:#60A5FA · --border:#26356E · --text-sec:#94A8D0 · --title:#FFFFFF`
+4. **Morado Profundo** — estrategia, IA, innovación, thought leadership
+   `--bg:#1A0B2E · --card:#2A1A45 · --accent:#A855F7 · --accent-2:#C084FC · --border:#3D2A5C · --text-sec:#B0A0CE · --title:#FFFFFF`
+5. **Índigo + Cian** — SaaS, growth, producto, go-to-market
+   `--bg:#0F1235 · --card:#1B1F4D · --accent:#6366F1 · --accent-2:#22D3EE · --border:#2A2F66 · --text-sec:#9CA3D4 · --title:#FFFFFF`
 
 Herramientas disponibles:
 
@@ -91,7 +104,7 @@ Elementos de producción que controlas:
 
 - Siempre activados.
 - Posición: centro inferior o centro pantalla.
-- Tipografía: sans-serif bold, mínimo 40px equivalente.
+- Tipografía: Poppins Bold (700), mínimo 40px equivalente.
 - Color: blanco con sombra o fondo negro semitransparente.
 - Sincronizados con el audio o con el ritmo de lectura del guión.
 - Sin más de 5 palabras por línea en pantalla.

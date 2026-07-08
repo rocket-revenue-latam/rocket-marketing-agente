@@ -32,14 +32,23 @@ Traduce el brief a un prompt en inglés optimizado para DALL-E 3.
 
 **Reglas para el prompt:**
 - Siempre en inglés (DALL-E responde mejor)
-- Ser específico con colores: usar hex o nombres exactos ("dark navy #1A2340", "amber #F59E0B")
+- Fondo siempre oscuro — usar el hex de `--bg` de la paleta elegida (ver "Paletas de marca" abajo)
+- Ser específico con colores: usar hex exactos del `--bg` y `--accent` de la paleta ("dark navy background #0A1A3C", "magenta accent #E0218A")
 - Pedir "no text" si el copy va a agregarse después en Canva
 - Especificar "professional B2B", "corporate", "clean" para evitar estilos consumer
 - Máximo 400 caracteres para mayor precisión
 
+**Paletas de marca disponibles** (mismo criterio de selección que `graphic-producer` y `viz-diagrams` — usa `--bg` y `--accent` en el prompt):
+
+1. **Navy + Magenta** (por defecto) — `--bg:#0A1A3C · --accent:#E0218A`
+2. **Terminal Mint** — dev, automatización, Claude Code, RevOps técnico — `--bg:#13131A · --accent:#00D4AA`
+3. **Azul Eléctrico** — data, finanzas, B2B analytics, revenue metrics — `--bg:#0B1437 · --accent:#3B82F6`
+4. **Morado Profundo** — estrategia, IA, innovación, thought leadership — `--bg:#1A0B2E · --accent:#A855F7`
+5. **Índigo + Cian** — SaaS, growth, producto, go-to-market — `--bg:#0F1235 · --accent:#6366F1`
+
 **Ejemplo de prompt:**
 ```
-Minimalist professional B2B marketing banner. Abstract geometric shapes suggesting growth and systems on dark navy background #1A2340. Amber accent #F59E0B geometric lines. Clean, corporate, high contrast. No people, no text, no stock photography clichés. Suitable for LinkedIn or Instagram feed.
+Minimalist professional B2B marketing banner. Abstract geometric shapes suggesting growth and systems on dark navy background #0A1A3C. Magenta accent #E0218A geometric lines. Clean, corporate, high contrast. No people, no text, no stock photography clichés. Suitable for LinkedIn or Instagram feed.
 ```
 
 ### Paso 3 — Determinar el tamaño
