@@ -94,9 +94,9 @@ curl -s "URL_DE_LA_IMAGEN" -o "RUTA_DE_DESTINO/nombre-archivo.png"
 ```
 
 Ejemplos:
-- `diagnostico-revenue-ad-meta-dolor-v1.png`
+- `webinar-b2b-ad-meta-dolor-v1.png`
 - `grancalendario-banner-linkedin-v1.png`
-- `vendex-story-ig-cta-v1.png`
+- `promo-anual-story-ig-cta-v1.png`
 
 **Carpeta de destino:**
 ```
